@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Crystal Collector!</title>
+    <link rel="stylesheet" type="text/css"
+    href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css"
+    href="./assets/css/style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+<header>Crystal Collector!</header>
+<div class="instructions">Rules:
+    <p>
+      <h4>You will be given a random number at the start of the game.</h4>
+     <h4>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</h4>
+     <h4>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</h4>
+     <h4>The value of each crystal is hidden from you until you click on it.</h4>
+     <h4>Each time when the game starts, the game will change the values of each crystal</h4>
+    </p>
+</div>
+
+<div class="score">
+    <div>
+        <div class="wins"></div>
+        <div class="losses"></div>
+
+    </div>
+    <div>
+      <h3>Number to Guess:</h3>
+        <div class="randomNumber"></div>
+        <h3> Current Count: </h3>
+        <span class="totalScore"></span>
+    </div>
+</div>
+<div class="crystals">
+<span class="crystal-1 crystal"><img src= ./assets/images/blue.png></span>
+<span class="crystal-2 crystal"><img src= ./assets/images/red.jpeg></span>
+<span class="crystal-3 crystal"><img src= ./assets/images/green.png></span>
+<span class="crystal-4 crystal"><img src= ./assets/images/yellow.png></span>
+</div>
+
+
+<script src="./assets/javascript/game.js"></script>
+</body>
+</html>
